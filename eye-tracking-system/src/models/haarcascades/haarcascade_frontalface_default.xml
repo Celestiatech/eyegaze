@@ -1,0 +1,44 @@
+<contents of /eye-tracking-system/eye-tracking-system/src/models/haarcascades/haarcascade_frontalface_default.xml>
+<?xml version="1.0"?>
+<opencv_storage>
+<haarcascade_frontalface_default>
+  <size>24</size>
+  <stageType>BOOST</stageType>
+  <featureType>HAAR</featureType>
+  <stages>
+    <stage>
+      <trees>
+        <tree>
+          <node>
+            <feature>
+              <rects>
+                <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>24</width>
+                  <height>24</height>
+                  <weight>-1</weight>
+                </rect>
+                <rect>
+                  <x>12</x>
+                  <y>0</y>
+                  <width>12</width>
+                  <height>12</height>
+                  <weight>2</weight>
+                </rect>
+              </rects>
+              <tilted>0</tilted>
+            </feature>
+            <threshold>0.0</threshold>
+            <left>1</left>
+            <right>2</right>
+            <next>3</next>
+          </node>
+          <!-- Additional nodes and structure would follow here -->
+        </tree>
+      </trees>
+    </stage>
+    <!-- Additional stages would follow here -->
+  </stages>
+</haarcascade_frontalface_default>
+</opencv_storage>

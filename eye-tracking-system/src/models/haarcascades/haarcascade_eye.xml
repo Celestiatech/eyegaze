@@ -1,0 +1,34 @@
+<contents of /eye-tracking-system/eye-tracking-system/src/models/haarcascades/haarcascade_eye.xml>
+<?xml version="1.0"?>
+<opencv_storage>
+<haarcascade_eye>
+<item>
+<rect>
+<x>0</x>
+<y>0</y>
+<width>24</width>
+<height>24</height>
+</rect>
+<weight>1</weight>
+<feature>
+<rect>
+<x>0</x>
+<y>0</y>
+<width>12</width>
+<height>12</height>
+</rect>
+<weight>-1</weight>
+<feature>
+<rect>
+<x>0</x>
+<y>12</y>
+<width>12</width>
+<height>12</height>
+</rect>
+<weight>1</weight>
+</feature>
+</feature>
+</item>
+<!-- Additional items and features would be defined here -->
+</haarcascade_eye>
+</opencv_storage>
