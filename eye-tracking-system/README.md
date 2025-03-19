@@ -48,3 +48,92 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+# Eye Gaze Tracking with a Web Camera
+
+## **Project Overview**
+This project enables real-time eye gaze tracking using a standard web camera. It utilizes OpenCV, Dlib, and MediaPipe for facial and eye detection, along with Python for implementation.
+
+---
+
+## **System Requirements**
+- **OS:** Ubuntu 20.04 or later (Recommended: WSL2 for Windows users)
+- **Python Version:** 3.8 or later
+- **Hardware:** Webcam-enabled PC
+
+---
+
+## **Installation & Setup Guide**
+
+### **Step 1: Update System Packages**
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+### **Step 2: Install Dependencies**
+```bash
+sudo apt install python3 python3-pip python3-venv -y
+```
+
+### **Step 3: Create & Activate Virtual Environment**
+```bash
+python3 -m venv eyegaze_env
+source eyegaze_env/bin/activate
+```
+
+### **Step 4: Install Required Python Packages**
+```bash
+pip install opencv-python opencv-python-headless dlib mediapipe numpy
+```
+
+### **Step 5: Clone the Repository**
+```bash
+git clone https://github.com/Celestiatech/eyegaze.git
+cd eyegaze
+```
+
+### **Step 6: Run the Eye Tracking Script**
+```bash
+python eye_tracking.py
+```
+
+---
+
+## **Troubleshooting**
+### **1. OpenCV Module Not Found**
+```bash
+pip install --upgrade opencv-python opencv-python-headless
+```
+
+### **2. Dlib Compilation Issues**
+```bash
+sudo apt install cmake build-essential -y
+pip install dlib
+```
+
+### **3. Systemd Errors in WSL**
+If using WSL, enable systemd:
+```bash
+sudo nano /etc/wsl.conf
+```
+Add the following lines:
+```ini
+[boot]
+systemd=true
+```
+Then restart WSL:
+```powershell
+wsl --shutdown
+```
+
+---
+
+## **Credits**
+Developed by [Your Name] for [Client Name].
+
+---
+
+## **License**
+This project is open-source under the MIT License.
+
